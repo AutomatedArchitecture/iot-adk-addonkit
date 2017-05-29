@@ -27,6 +27,11 @@
           <FeatureID>OEM_SosRelay</FeatureID>
         </FeatureIDs>
 	  </PackageFile>
+      <PackageFile Path="%PKGBLD_DIR%" Name="%OEM_NAME%.Appx.SosBackground.cab">
+        <FeatureIDs>
+          <FeatureID>OEM_SosBackground</FeatureID>
+        </FeatureIDs>
+	  </PackageFile>
     </OEM>
     <OEMFeatureGroups/>
   </Features>

@@ -80,7 +80,7 @@
       <Feature>OEM_ProvAuto</Feature>
       <Feature>OEM_SosUi</Feature>
       <Feature>OEM_SosRelay</Feature>
-
+      <Feature>OEM_SosBackground</Feature>
     </OEM>
   </Features>
   <Product>Windows 10 IoT Core</Product>
