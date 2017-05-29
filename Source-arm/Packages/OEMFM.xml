@@ -22,6 +22,11 @@
           <FeatureID>OEM_SosUi</FeatureID>
         </FeatureIDs>
 	  </PackageFile>
+      <PackageFile Path="%PKGBLD_DIR%" Name="%OEM_NAME%.Appx.SosRelay.cab">
+        <FeatureIDs>
+          <FeatureID>OEM_SosRelay</FeatureID>
+        </FeatureIDs>
+	  </PackageFile>
     </OEM>
     <OEMFeatureGroups/>
   </Features>
