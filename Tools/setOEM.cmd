@@ -1,1 +1,1 @@
-set OEM_NAME=AutomatedArchitecture
+set OEM_NAME=AA
