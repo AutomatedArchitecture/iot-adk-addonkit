@@ -24,14 +24,14 @@
   <DeviceLayoutPackages>
     <!-- MBR 4GB layout  -->
     <PackageFile SOC="CustomRPi2" Path="%PKGBLD_DIR%" Name="%OEM_NAME%.DeviceLayout.MBR4GB.cab"/>
-    <!-- MBR 2GB layout - select this by specifying the SOC field in the OEMInput xml file -->
-    <PackageFile SOC="CustomRPi2_2GB" Path="%PKGBLD_DIR%" Name="%OEM_NAME%.DeviceLayout.MBR2GB.cab"/>
+    <!-- MBR 8GB layout - select this by specifying the SOC field in the OEMInput xml file -->
+    <PackageFile SOC="CustomRPi2-R" Path="%PKGBLD_DIR%" Name="%OEM_NAME%.DeviceLayout.MBR8GB-R.cab"/>
   </DeviceLayoutPackages>
   <OEMDevicePlatformPackages>
     <!-- MBR 4GB layout  -->
     <PackageFile Device="CustomRPi2" Path="%PKGBLD_DIR%" Name="%OEM_NAME%.DeviceLayout.MBR4GB.cab"/>
-    <!-- MBR 2GB layout - select this by specifying the SOC field in the OEMInput xml file -->
-    <PackageFile Device="CustomRPi2_2GB" Path="%PKGBLD_DIR%" Name="%OEM_NAME%.DeviceLayout.MBR2GB.cab"/>
+    <!-- MBR 8GB layout - select this by specifying the SOC field in the OEMInput xml file -->
+    <PackageFile Device="CustomRPi2-R" Path="%PKGBLD_DIR%" Name="%OEM_NAME%.DeviceLayout.MBR8GB-R.cab"/>
   </OEMDevicePlatformPackages>
   <Features>
     <Microsoft />
@@ -56,6 +56,7 @@
       <PackageFile Path="%BSPPKG_DIR%" Name="%OEM_NAME%.RPi.bcmgpio.cab">
         <FeatureIDs>
           <FeatureID>RPI2_GPIO_DRIVER</FeatureID>
+          <!--FeatureID>RPI2_DRIVERS</FeatureID-->
         </FeatureIDs>
       </PackageFile>
       <PackageFile Path="%PKGBLD_DIR%" Name="%OEM_NAME%.CustomRPi2.GPIO.cab">
@@ -114,6 +115,7 @@
       <PackageFile Path="%MSPKG_DIR%" Name="RASPBERRYPI.RPi.BtwSerialH5Bus.cab">
         <FeatureIDs>
           <FeatureID>RPI_BTWSERIALH5BUS_DRIVER</FeatureID>
+          <FeatureID>RPI3_DRIVERS</FeatureID>
         </FeatureIDs>
       </PackageFile>
     </OEM>

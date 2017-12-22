@@ -12,14 +12,15 @@
       <Common>
         <Accounts>
           <ComputerAccount>
-            <ComputerName>ContosoSecureSample</ComputerName>
+            <ComputerName>ContosoSecure</ComputerName>
           </ComputerAccount>
         </Accounts>
         <Policies>
           <ApplicationManagement>
             <AllowAppStoreAutoUpdate>Allowed</AllowAppStoreAutoUpdate>
+            <AllowAllTrustedApps>Yes</AllowAllTrustedApps>
           </ApplicationManagement>
-          <Security>
+          <!--Security>
             <AllowAddProvisioningPackage>Yes</AllowAddProvisioningPackage>
             <AllowRemoveProvisioningPackage>Yes</AllowRemoveProvisioningPackage>
             <RequireDeviceEncryption>No</RequireDeviceEncryption>
@@ -38,7 +39,7 @@
             <DeferQualityUpdatesPeriodInDays>0</DeferQualityUpdatesPeriodInDays>
             <DetectionFrequency>22</DetectionFrequency>
             <RequireDeferUpgrade>Do not pause updates</RequireDeferUpgrade>
-          </Update>
+          </Update-->
         </Policies>
       </Common>
     </Customizations>

@@ -57,6 +57,7 @@ del %IOTADK_ROOT%\adkversion.txt
 
 REM Remove temporary variables
 set KITPATH=
+set KIT_VERSION=
 
 REM Check for WDK Presence
 if exist "%KITSROOT%\CoreSystem" (
@@ -105,6 +106,7 @@ REM Change to Working directory
 cd /D %IOTADK_ROOT%\Tools
 call setOEM.cmd
 doskey /macrofile=alias.txt
+set IOT_ADDON_VERSION=4.0
 
 echo IOTADK_ROOT : %IOTADK_ROOT%
 echo ADK_VERSION : %ADK_VERSION%
