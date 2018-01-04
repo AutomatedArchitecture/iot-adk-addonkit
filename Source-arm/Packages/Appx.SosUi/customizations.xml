@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WindowsCustomizations>
+  <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
+    <ID>{548eb5f3-3af2-40f5-9e9e-85f1443a7f03}</ID>
+    <Name>SosUiProv</Name>
+    <Version>1.0.3.0</Version>
+    <OwnerType>OEM</OwnerType>
+    <Rank>0</Rank>
+  </PackageConfig>
+  <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
+    <Customizations>
+      <Common>
+        <Policies>
+          <ApplicationManagement>
+            <AllowAllTrustedApps>Yes</AllowAllTrustedApps>
+          </ApplicationManagement>
+        </Policies>
+        <Certificates>
+          <RootCertificates>
+            <RootCertificate CertificateName="SirenOfShame.Uwp.Ui" Name="SirenOfShame.Uwp.Ui">
+              <CertificatePath>SirenOfShame.Uwp.Ui.cer</CertificatePath>
+            </RootCertificate>
+          </RootCertificates>
+        </Certificates>
+        <StartupApp>
+          <Default>
+           c187913a-00d0-450c-ace6-c66581bdaf08_n7wdzm614gaee!App 
+          </Default>
+        </StartupApp>
+        <UniversalAppInstall>
+          <UserContextApp>
+            <Application PackageFamilyName="c187913a-00d0-450c-ace6-c66581bdaf08_n7wdzm614gaee" Name="c187913a-00d0-450c-ace6-c66581bdaf08_n7wdzm614gaee">
+              <ApplicationFile>SirenOfShame.Uwp.Ui.appxbundle</ApplicationFile>
+              <DependencyAppxFiles>
+                <Dependency Name="Microsoft.NET.CoreRuntime.1.1.appx">Microsoft.NET.CoreRuntime.1.1.appx</Dependency>
+                <Dependency Name="Microsoft.VCLibs.ARM.Debug.14.00.appx">Microsoft.VCLibs.ARM.Debug.14.00.appx</Dependency>
+              </DependencyAppxFiles>
+              <DeploymentOptions>Force target application shutdown</DeploymentOptions>
+            </Application>
+          </UserContextApp>
+        </UniversalAppInstall>
+      </Common>
+    </Customizations>
+  </Settings>
+</WindowsCustomizations>

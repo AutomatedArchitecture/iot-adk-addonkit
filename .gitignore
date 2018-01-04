@@ -249,3 +249,4 @@ bspdrivers/
 Add-AppDevPackage.psd1
 Add-AppDevPackage.ps1
 *.appxsym
+*.appxbundle
