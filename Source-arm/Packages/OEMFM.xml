@@ -33,17 +33,22 @@
         <FeatureIDs>
           <FeatureID>OEM_SosUi</FeatureID>
         </FeatureIDs>
-	  </PackageFile>
+      </PackageFile>
       <PackageFile Path="%PKGBLD_DIR%" Name="%OEM_NAME%.Appx.SosRelay.cab">
         <FeatureIDs>
           <FeatureID>OEM_SosRelay</FeatureID>
         </FeatureIDs>
-	  </PackageFile>
+      </PackageFile>
       <PackageFile Path="%PKGBLD_DIR%" Name="%OEM_NAME%.Appx.SosBackground.cab">
         <FeatureIDs>
           <FeatureID>OEM_SosBackground</FeatureID>
         </FeatureIDs>
-	  </PackageFile>
+      </PackageFile>
+      <PackageFile Path="%PKGBLD_DIR%" Name="%OEM_NAME%.Appx.SosMaintenance.cab">
+        <FeatureIDs>
+          <FeatureID>OEM_SosMaintenance</FeatureID>
+        </FeatureIDs>
+      </PackageFile>
     </OEM>
     <OEMFeatureGroups/>
   </Features>

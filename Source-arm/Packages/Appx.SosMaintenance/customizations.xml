@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WindowsCustomizations>
+  <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
+    <ID>{1d96eb3d-4ab7-4c89-9e4b-42cc102bcd9c}</ID>
+    <Name>SosMaintenanceProv</Name>
+    <Version>1.0.0.0</Version>
+    <OwnerType>OEM</OwnerType>
+    <Rank>0</Rank>
+  </PackageConfig>
+  <Settings xmlns="urn:schemas-microsoft-com:windows-provisioning">
+    <Customizations>
+      <Common>
+        <Policies>
+          <ApplicationManagement>
+            <AllowAllTrustedApps>Yes</AllowAllTrustedApps>
+          </ApplicationManagement>
+        </Policies>
+        <Certificates>
+          <RootCertificates>
+            <RootCertificate CertificateName="SirenOfShame.Uwp.Maintenance" Name="SirenOfShame.Uwp.Maintenance">
+              <CertificatePath>SirenOfShame.Uwp.Maintenance.cer</CertificatePath>
+            </RootCertificate>
+          </RootCertificates>
+        </Certificates>
+        <StartupBackgroundTasks>
+          <ToAdd>
+            <Add PackageName=
+            "SirenOfShame.Uwp.Maintenance-uwp_n7wdzm614gaee!App" 
+            ></Add>
+          </ToAdd>
+        </StartupBackgroundTasks>
+        <UniversalAppInstall>
+          <UserContextApp>
+            <Application PackageFamilyName="SirenOfShame.Uwp.Maintenance-uwp_n7wdzm614gaee" Name="SirenOfShame.Uwp.Maintenance-uwp_n7wdzm614gaee">
+              <ApplicationFile>SirenOfShame.Uwp.Maintenance.appxbundle</ApplicationFile>
+              <DependencyAppxFiles>
+                <Dependency Name="Microsoft.NET.CoreRuntime.1.1.appx">Microsoft.NET.CoreRuntime.1.1.appx</Dependency>
+                <Dependency Name="Microsoft.VCLibs.ARM.Debug.14.00.appx">Microsoft.VCLibs.ARM.Debug.14.00.appx</Dependency>
+              </DependencyAppxFiles>
+              <DeploymentOptions>Force target application shutdown</DeploymentOptions>
+            </Application>
+          </UserContextApp>
+        </UniversalAppInstall>
+      </Common>
+    </Customizations>
+  </Settings>
+</WindowsCustomizations>
