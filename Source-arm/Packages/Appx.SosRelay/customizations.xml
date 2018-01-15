@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <WindowsCustomizations>
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
-    <ID>{2e889063-58c8-4090-a034-ac2d06bf9a07}</ID>
+    <ID>{a7a674ef-f3e3-4cad-bfcb-db898c5aaa9c}</ID>
     <Name>SosRelayProv</Name>
-    <Version>1.0.2.0</Version>
+    <Version>1.0.3.0</Version>
     <OwnerType>OEM</OwnerType>
     <Rank>0</Rank>
   </PackageConfig>

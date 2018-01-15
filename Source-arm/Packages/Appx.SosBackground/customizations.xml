@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <WindowsCustomizations>
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
-    <ID>{07026eb5-0f00-430d-a285-f61a30778fdf}</ID>
+    <ID>{d60e16c4-1942-4a19-83df-624c1eee29bf}</ID>
     <Name>SosBackgroundProv</Name>
-    <Version>1.0.3.0</Version>
+    <Version>1.0.6.0</Version>
     <OwnerType>OEM</OwnerType>
     <Rank>0</Rank>
   </PackageConfig>
@@ -34,7 +34,7 @@
             <Application PackageFamilyName="SirenOfShame.Uwp.Background-uwp_n7wdzm614gaee" Name="SirenOfShame.Uwp.Background-uwp_n7wdzm614gaee">
               <ApplicationFile>SirenOfShame.Uwp.Background.appxbundle</ApplicationFile>
               <DependencyAppxFiles>
-                <Dependency Name="Microsoft.NET.CoreRuntime.1.1.appx">Microsoft.NET.CoreRuntime.1.1.appx</Dependency>
+                <Dependency Name="Microsoft.NET.CoreRuntime.2.1.appx">Microsoft.NET.CoreRuntime.2.1.appx</Dependency>
                 <Dependency Name="Microsoft.VCLibs.ARM.Debug.14.00.appx">Microsoft.VCLibs.ARM.Debug.14.00.appx</Dependency>
               </DependencyAppxFiles>
               <DeploymentOptions>Force target application shutdown</DeploymentOptions>

@@ -1,6 +1,6 @@
-Source Appx: C:\dev\SirenOfShame.Uwp.Pi\SirenOfShame.Uwp.Background\AppPackages\SirenOfShame.Uwp.Background_1.0.3.0_Debug_Test\SirenOfShame.Uwp.Background_1.0.3.0_arm_Debug.appxbundle
+Source Appx: C:\dev\SirenOfShame.Uwp.Pi\SirenOfShame.Uwp.Background\AppPackages\SirenOfShame.Uwp.Background_1.0.6.0_Debug_Test\SirenOfShame.Uwp.Background_1.0.6.0_arm_Debug.appxbundle
 Dependencies :
-C:\dev\SirenOfShame.Uwp.Pi\SirenOfShame.Uwp.Background\AppPackages\SirenOfShame.Uwp.Background_1.0.3.0_Debug_Test\Dependencies\arm\Microsoft.NET.CoreRuntime.1.1.appx
-C:\dev\SirenOfShame.Uwp.Pi\SirenOfShame.Uwp.Background\AppPackages\SirenOfShame.Uwp.Background_1.0.3.0_Debug_Test\Dependencies\arm\Microsoft.VCLibs.ARM.Debug.14.00.appx
+C:\dev\SirenOfShame.Uwp.Pi\SirenOfShame.Uwp.Background\AppPackages\SirenOfShame.Uwp.Background_1.0.6.0_Debug_Test\Dependencies\arm\Microsoft.NET.CoreRuntime.2.1.appx
+C:\dev\SirenOfShame.Uwp.Pi\SirenOfShame.Uwp.Background\AppPackages\SirenOfShame.Uwp.Background_1.0.6.0_Debug_Test\Dependencies\arm\Microsoft.VCLibs.ARM.Debug.14.00.appx
 Certificates : 
-C:\dev\SirenOfShame.Uwp.Pi\SirenOfShame.Uwp.Background\AppPackages\SirenOfShame.Uwp.Background_1.0.3.0_Debug_Test\SirenOfShame.Uwp.Background_1.0.3.0_arm_Debug.cer
+C:\dev\SirenOfShame.Uwp.Pi\SirenOfShame.Uwp.Background\AppPackages\SirenOfShame.Uwp.Background_1.0.6.0_Debug_Test\SirenOfShame.Uwp.Background_1.0.6.0_arm_Debug.cer
