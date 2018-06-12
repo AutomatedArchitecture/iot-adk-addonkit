@@ -1,6 +1,2 @@
-Source Appx: C:\dev\SirenOfShame.Uwp.Pi\SirenOfShame.Uwp.Ui\AppPackages\SirenOfShame.Uwp.Ui_1.0.5.0_Debug_Test\SirenOfShame.Uwp.Ui_1.0.5.0_arm_Debug.appxbundle
+Source Appx: C:\dev\SirenOfShame.Uwp.Pi\SirenOfShame.Uwp.Ui\AppPackages\SirenOfShame.Uwp.Ui_1.0.14.0_Debug_Test\SirenOfShame.Uwp.Ui_1.0.14.0_arm_Debug.appxbundle
 Dependencies :
-C:\dev\SirenOfShame.Uwp.Pi\SirenOfShame.Uwp.Ui\AppPackages\SirenOfShame.Uwp.Ui_1.0.5.0_Debug_Test\Dependencies\arm\Microsoft.NET.CoreRuntime.2.1.appx
-C:\dev\SirenOfShame.Uwp.Pi\SirenOfShame.Uwp.Ui\AppPackages\SirenOfShame.Uwp.Ui_1.0.5.0_Debug_Test\Dependencies\arm\Microsoft.VCLibs.ARM.Debug.14.00.appx
-Certificates : 
-C:\dev\SirenOfShame.Uwp.Pi\SirenOfShame.Uwp.Ui\AppPackages\SirenOfShame.Uwp.Ui_1.0.5.0_Debug_Test\SirenOfShame.Uwp.Ui_1.0.5.0_arm_Debug.cer

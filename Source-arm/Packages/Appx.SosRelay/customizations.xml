@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <WindowsCustomizations>
   <PackageConfig xmlns="urn:schemas-Microsoft-com:Windows-ICD-Package-Config.v1.0">
-    <ID>{a7a674ef-f3e3-4cad-bfcb-db898c5aaa9c}</ID>
+    <ID>{de176a50-5ebc-409f-abfb-f43aa2ed777a}</ID>
     <Name>SosRelayProv</Name>
-    <Version>1.0.3.0</Version>
+    <Version>1.0.5.0</Version>
     <OwnerType>OEM</OwnerType>
     <Rank>0</Rank>
   </PackageConfig>
@@ -34,7 +34,7 @@
             <Application PackageFamilyName="SirenOfShame.Uwp.MessageRelay-uwp_n7wdzm614gaee" Name="SirenOfShame.Uwp.MessageRelay-uwp_n7wdzm614gaee">
               <ApplicationFile>SirenOfShame.Uwp.MessageRelay.appxbundle</ApplicationFile>
               <DependencyAppxFiles>
-                <Dependency Name="Microsoft.NET.CoreRuntime.1.1.appx">Microsoft.NET.CoreRuntime.1.1.appx</Dependency>
+                <Dependency Name="Microsoft.NET.CoreRuntime.2.1.appx">Microsoft.NET.CoreRuntime.2.1.appx</Dependency>
                 <Dependency Name="Microsoft.VCLibs.ARM.Debug.14.00.appx">Microsoft.VCLibs.ARM.Debug.14.00.appx</Dependency>
               </DependencyAppxFiles>
               <DeploymentOptions>Force target application shutdown</DeploymentOptions>
