@@ -7,6 +7,7 @@ reg query HKLM\Software\IoT /v FirstBootDone >nul 2>&1
 if %errorlevel% == 1 (
     REM Enable Administrator User
     net user Administrator p@ssw0rd /active:yes
+    WMIC ComputerSystem where Name=DSIGN call Rename Name=SirenOfShame
     reg add HKLM\Software\IoT /v FirstBootDone /t REG_DWORD /d 1 /f >nul 2>&1
 )
 
